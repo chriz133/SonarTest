@@ -57,8 +57,8 @@ tasks.register('jacocoTestReport', JacocoReport) {
 
 sonar {
     properties {
-        property "sonar.projectKey", "Group-B-DKT_DKT_Group_Beta"
-        property "sonar.organization", "group-b-dkt"
+        property "sonar.projectKey", "chriz133_SonarTest"
+        property "sonar.organization", "chriz133"
         property "sonar.host.url", "https://sonarcloud.io"
         property "sonar.java.coveragePlugin", "jacoco"
         property "sonar.coverage.jacoco.xmlReportPaths", "${project.projectDir}/build/reports/jacoco/jacocoTestReport/jacocoTestReport.xml"
